@@ -11,8 +11,10 @@ Conda is recommended to run it in a virtual environment (or just a plain python 
 
 ```bash
 git clone https://github.com/legokor/YOLO-Demo-Standolashoz.git
-cd YOLO-Demo-Standol-shoz-
-conda create -n yolo python=3.8 opencv-python wget
+cd YOLO-Demo-Standolashoz
+conda create -n yolo python=3.8 
+conda activate yolo
+pip install opencv-python wget
 ```
 
 # Run
